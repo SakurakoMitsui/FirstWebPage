@@ -8,14 +8,14 @@ body{
 
 
 img{
-    border: 2px solid #ddd;
+    border: 2px solid; 
     border-radius: 8px;
     padding: 5px;
     display: block;
     margin: auto;
 }
 
-header{
+.header{
     background-color: #ddd;
     color: brown;
     text-align: center;
