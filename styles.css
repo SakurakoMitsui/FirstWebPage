@@ -15,11 +15,14 @@ img{
     margin: auto;
 }
 
-.header{
-    background-color: #ddd;
+#header{
     color: brown;
     text-align: center;
     padding: 20px;
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
 }
 
 h1{
