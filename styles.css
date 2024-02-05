@@ -16,7 +16,7 @@ img{
 }
 
 #header{
-   color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: center;
     padding: 30px;
@@ -57,7 +57,7 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.button {
+#button {
     display: inline-block;
     padding: 15px 25px;
     font-size: 18px;
@@ -73,9 +73,9 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-  .button:hover {background-color: #c2af89}
+  #button:hover {background-color: #c2af89}
   
-  .button:active {
+  #button:active {
     background-color: #897938;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
