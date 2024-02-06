@@ -31,7 +31,7 @@
     padding: 20px;
     text-decoration: underline;
     display: block;
-    border-left: 2px solid white;
+    border-left: 6px solid white;
   }
   
 
@@ -60,6 +60,7 @@
   .content p {
     text-align: justify;
     line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   h3{

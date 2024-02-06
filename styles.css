@@ -38,13 +38,13 @@ h1{
     box-shadow: 0 0 10px rgba(66, 33, 33, 0.336);
 }
 
-footer{
+.footer{
     background-color:rgb(245, 239, 218);
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width:100%;
+    border-radius: 5px;
+    bottom:0;
+    width: 100%;
 }
 
 h3{
@@ -104,8 +104,3 @@ p{
   }
   
   
-  div {
-    border-radius: 5px;
-    background-color: #ddd;
-    padding: 20px;
-  }
