@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Japanese Fairy Tales</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+ * {
+    box-sizing: border-box;
+}
+
+
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.tales {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 700px; 
+}
+
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+        </style>
+    </head>
+<body>
+
+<section id="intro">
+    <h2 style="color: black; text-align: center;">Introduction</h2>
+    <p style="text-align: center; font-size: 20px;">Japan boasts a eich tradition of captivating fairy tales, filled with magical creatures, noble heroes, and moral lessons.</p>
+    <img src="https://newsroom.lmu.edu/wp-content/uploads/2022/05/Rare-Japanese-Fairy-Tales-on-Display-at-Library.jpg" alt="Japanese Fairy Tale" width="600" style="border: 4px solid #a38a6a;">
+</section>
+
+<div id="header">
+  <h2>Japanese Fairy Tales</h2>
+</div>
+
+<div class="row">
+  <div class="tales" style="background-color:#aaa;">
+    <h3>THE ADVENTURES OF KINTARO, THE GOLDEN BOY</h3>
+    <img style="height: 300px;" src="https://takenaka-atorie.com/take-sora-new/wp-content/uploads/2019/06/sumi_kintaro.jpg">
+    <p style="border-left: 6px solid rgb(215, 215, 215);">
+  
+      Long, long ago there lived in Kyoto a brave soldier named Kintoki. 
+      
+      Now he fell in love with a beautiful lady and married her. 
+      
+      Not long after this, through the malice of some of his friends, he fell into disgrace at Court and was dismissed. 
+
+      <p>Click<button id="button"><a href="kintaro.html">Here</a></button> to read the rest of this story</p>
+      <p>Click<button id="button"><a href="https://etc.usf.edu/lit2go/72/japanese-fairy-tales/3080/the-adventures-of-kintaro-the-golden-boy/">Here</a></button> to listen to the audio</p>
+    </p>
+  </div>
+
+  <div class="tales" style="background-color:#bbb;">
+    <h3>THE BAMBOO-CUTTER AND THE MOON-CHILD</h3>
+    <img style="height: 300px;" src="https://eiga.k-img.com/images/movie/77933/photo/48c96e247f4b4008/640.jpg?1396888187">
+    <p style="border-left: 6px solid rgb(220, 220, 220);">
+      
+      Long, long ago, there lived an old bamboo wood-cutter.
+        
+      He was very poor and sad also, for no child had Heaven sent to cheer his old age, and in his heart there was no hope of rest from work till he died and was laid in the quiet grave.
+        
+      Every morning he went forth into the woods and hills wherever the bamboo reared its lithe green plumes against the sky. 
+        
+      <p>Click<button id="button"><a href="kaguyahime.html">Here</button></a>to read the rest of this story</p>
+      <p>Click<button id="button"><a href="https://etc.usf.edu/lit2go/72/japanese-fairy-tales/4834/the-bamboo-cutter-and-the-moon-child/">Here</a></button> to listen to the audio</p>
+    </p> 
+  </div>
+
+  <div class="tales" style="background-color:#ccc;">
+    <h3 style="font-size: 19px;">MOMOTARO, OR THE STORY OF THE SON OF A PEACH</h3>
+    <img style="height: 300px;" src="https://i.ytimg.com/vi/ofI7ySnzyHk/hqdefault.jpg">
+    <p style="border-left: 6px solid rgb(230, 230, 230);">
+     
+      Long, long ago there lived, an old man and an old woman; they were peasants, and had to work hard to earn their daily rice. 
+      
+      The old man used to go and cut grass for the farmers around, and while he was gone the old woman, his wife, did the work of the house and worked in their own little rice field.
+
+       
+      <p>Click<button id="button"><a href="momotaro.html">Here</a></button> to read the rest of this story</p>
+      <p>Click<button id="button"><a href="https://etc.usf.edu/lit2go/72/japanese-fairy-tales/4845/momotaro-or-the-story-of-the-son-of-a-peach/">Here</a></button> to listen to the audio</p>
+    </p>    
+  </div>
+</div>
+
+<div class="footer">
+  <p style="font-size: 20px; text-align: center;">Discover more Japanese fairy tales and immerse yourself in the cultural wonders of Japan.</p>
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your name.."><br>
+
+    <label for="lname">Comment:</label><br>
+    <input type="text" id="comment" name="comment" placeholder="Your comment.."><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+ 
+
+
+</body>
+</html>
